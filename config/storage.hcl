@@ -1,5 +1,5 @@
 storage "raft" {
-  path = "/tmp/vault"
+  path = "/home/ubuntu/vault/raft"
   node_id = "raft_node_1"
   performance_multiplier = 10
 }
