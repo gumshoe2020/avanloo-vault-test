@@ -1,6 +1,6 @@
 storage "raft" {
   path = "/home/ubuntu/vault/raft"
   node_id = "raft_node_1"
-  performance_multiplier = 10
+  performance_multiplier = 5
 }
 cluster_addr = "http://127.0.0.1:8201"
